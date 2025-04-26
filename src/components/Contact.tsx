@@ -53,8 +53,8 @@ function Contact() {
     <div id="contact">
       <div className="items-container">
         <div className="contact_wrapper">
-          <h1>Contact Me</h1>
-          <p>Got a project waiting to be realized? Let's collaborate and make it happen!</p>
+          <h1>Meu contacto</h1>
+          <p>Um pedido especial ou falar diretamente comigo? Vamos lá!</p>
           <Box
             ref={form}
             component="form"
@@ -66,7 +66,7 @@ function Contact() {
               <TextField
                 required
                 id="outlined-required"
-                label="Your Name"
+                label="Seu nome"
                 placeholder="What's your name?"
                 value={name}
                 onChange={(e) => {

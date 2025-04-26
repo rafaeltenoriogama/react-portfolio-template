@@ -9,20 +9,11 @@ function Main() {
     <div className="container">
       <div className="about-section">
         <div className="image-wrapper">
-          <img src="https://my-aws-assets.s3.us-west-2.amazonaws.com/portfolio-img/avatar_circle.jpeg" alt="Avatar" />
+          <img src="https://static.wixstatic.com/media/4c3fb9_a7011d6ebd184dadbf21b9e563356278~mv2.jpg/v1/crop/x_24,y_0,w_1870,h_2521/fill/w_460,h_620,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/Polish_20191228_233847406.jpg" alt="Avatar" />
         </div>
         <div className="content">
-          <div className="social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-          </div>
-          <h1>Yuji Sato</h1>
-          <p>Full Stack Engineer</p>
-
-          <div className="mobile_social_icons">
-            <a href="https://github.com/yujisatojr" target="_blank" rel="noreferrer"><GitHubIcon/></a>
-            <a href="https://www.linkedin.com/in/yujisato/" target="_blank" rel="noreferrer"><LinkedInIcon/></a>
-          </div>
+          <h1>João David</h1>
+          <p>Escritor de poemas e rimas</p>
         </div>
       </div>
     </div>
