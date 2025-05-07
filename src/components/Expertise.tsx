@@ -50,38 +50,27 @@ function Expertise() {
             <div className="skills-grid">
                 <div className="skill">
                     <FontAwesomeIcon icon={faBook} size="3x"/>
-                    <h3>Livros Rimas e Poemas</h3>
-                    <p>I have built a diverse array of web applications from scratch using modern technologies such as React and Flask. I have a strong proficiency in the SDLC process and frontend + backend development.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsFirst.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
+                    <h3>Livros Poemas e Rimas</h3>
+                    <p> Sou o autor do livro "Pensamentos Distantes, John Tavis ‑ Livro ‑ Bertrand" que foi publicado pela Editora CHIADO BOOKS na Fnac, Bertrand,
+                    Wook e outras livrarias.</p>
                 </div>
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faQuoteLeft} size="3x"/>
-                    <h3>DevOps & Automation</h3>
-                    <p>Once the application is built, I help clients set up DevOps testing, CI/CD pipelines, and deployment automation to support the successful Go-Live.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsSecond.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
+                    <h3>Formação e Qualificações</h3>
+                    <p>Sou estudante àvido, atualmente estou realizando o curso avançado em assistente administrativo, iniciado em março de 2024. Tenho uma formação em Hotelaria e Restauração - Cozinha (Out/2021-Set/2022).</p>
                 </div>
 
                 <div className="skill">
                     <FontAwesomeIcon icon={faStore} size="3x"/>
-                    <h3>GenAI & LLM</h3>
-                    <p>Stay relevant in the market by leveraging the latest AI models in your projects. I have professional experience building enterprise grade GenAI-enabled solutions to empower intelligent decision making.</p>
-                    <div className="flex-chips">
-                        <span className="chip-title">Tech stack:</span>
-                        {labelsThird.map((label, index) => (
-                            <Chip key={index} className='chip' label={label} />
-                        ))}
-                    </div>
+                    <h3>Experiência profissional</h3>
+                    <p>Eis algumas de minhas experiências profissionais</p>
+                    <p><strong>Ajudante de cozinha</strong></p>
+                    <p>Buraquinho, Porto, Ribeira</p>
+                    <p><strong>Copeiro, Pasteleiro e Ajudante cozinha</strong></p>
+                    <p>Grupo Cafeína, Porto, Foz</p>
+                    <p>Trabalho atual: <strong>Cozinheiro/Pizzaiolo</strong></p>
+                    <p>Mino`s Pizza, Porto, Hospital de São João</p>
                 </div>
             </div>
         </div>
